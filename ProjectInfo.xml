@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+  Copyright : 2012 Freescale, Inc. All Rights Reserved.
+
+  This configuration file is a standard interchange file that's format is maintained
+  by Freescale, Inc. The configuration file is a derivative work
+  of the Processor Expert Software technology licensed for use by customers
+  as defined as SOFTWARE in the product's End User License Agreement. This file
+  and format are free to use and distribute for read-only purposes. You do not have
+  the right to create these files or modify this format or use for any purposes other
+  than interchange with the Processor Expert Software technology.
+
+  THIS SOFTWARE IS PROVIDED "AS IS".
+
+  NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT
+  LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+  PURPOSE APPLY TO THIS SOFTWARE. IN NO EVENT WILL FREESCALE BE LIABLE, WHETHER
+  IN CONTRACT, TORT, OR OTHERWISE, FOR ANY INCIDENTAL, SPECIAL, INDIRECT,
+  CONSEQUENTIAL OR PUNITIVE DAMAGES, INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR
+  ANY LOSS OF USE, LOSS OF TIME, INCONVENIENCE, COMMERCIAL LOSS, OR LOST PROFITS,
+  SAVINGS, OR REVENUES TO THE FULL EXTENT SUCH MAY BE DISCLAIMED BY LAW.
+
+-->
+<export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ProjectInfoDescription.xsd">
+  <PROCESSOR>
+    <DeviceID>MK64FN1M0xxx12</DeviceID>
+    <CoreNum>1</CoreNum>
+    <Cores>
+      <Core>
+        <CoreSet>Cortex-M4</CoreSet>
+      </Core>
+    </Cores>
+    <SRAMsize>256k</SRAMsize>
+    <FLASHsize>1M</FLASHsize>
+  </PROCESSOR>
+  <PATHS>
+    <LinkerCommandFile>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Project_Settings\Linker_Files\ProcessorExpert.lcf</LinkerCommandFile>
+    <IncludePaths>
+      <Path>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd2\MK64FN1M0LL12\system\</Path>
+      <Path>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\</Path>
+      <Path>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\iofiles\</Path>
+      <Path>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Sources\</Path>
+      <Path>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\</Path>
+    </IncludePaths>
+    <SourceCodePaths>
+      <Path>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\</Path>
+      <Path>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Sources\</Path>
+      <Path>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd2\MK64FN1M0LL12\system\</Path>
+    </SourceCodePaths>
+  </PATHS>
+  <FILES>
+    <GeneratedCs>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\ADC_I.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\ASerialLdd2.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\AdcLdd2.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BIT0.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BIT1.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BIT2.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BIT3.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BIT4.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BIT5.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BIT6.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BIT7.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd1.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd10.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd11.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd12.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd13.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd14.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd15.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd16.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd17.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd18.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd19.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd2.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd3.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd4.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd5.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd6.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd7.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd8.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd9.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitLed_Azul.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitLed_Verde.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitOut_DIR_EN.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitOut_DIR_PWM.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitOut_DIR_SENT.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Btn_Emergencia.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Btn_SW1.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Btn_SW2.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\CaptureLdd1.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\CaptureLdd2.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\CaptureLdd3.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\CaptureLdd4.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\CaptureLdd5.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\CaptureLdd6.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Cpu.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\CtrlPID_DD.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\CtrlPID_DI.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\CtrlPID_TD.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\CtrlPID_TI.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Encoder_DD.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Encoder_DI.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Encoder_TD.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Encoder_TI.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\ExtIntLdd1.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\ExtIntLdd2.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\ExtIntLdd3.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Input_Encoder_DD.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Input_Encoder_DI.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Input_Encoder_TD.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Input_Encoder_TI.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\IntDireccion.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\IntTiempo.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\MCUC1.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Out_PWM_DD.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Out_PWM_DI.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Out_PWM_TD.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Out_PWM_TI.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Out_Reversa.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\PE_LDD.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\PwmLdd1.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\PwmLdd2.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\PwmLdd3.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\PwmLdd4.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\ReceptorDireccion.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\ReceptorVelocidad.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Status_LED.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\TEXT.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\TPWM.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\TPulsos.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\TReceptor.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\TTemp.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\TimerIntLdd1.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\TimerIntLdd2.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\UART_MODBUS.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\WAIT1.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Sources\Events.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Sources\Funciones.c</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Sources\main.c</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd2\MK64FN1M0LL12\system\CPU_Init.c</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd2\MK64FN1M0LL12\system\Peripherals_Init.c</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd2\MK64FN1M0LL12\system\Vectors.c</PathName>
+    </GeneratedCs>
+    <GeneratedHs>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\ADC_I.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\ASerialLdd2.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\AdcLdd2.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BIT0.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BIT1.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BIT2.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BIT3.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BIT4.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BIT5.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BIT6.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BIT7.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd1.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd10.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd11.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd12.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd13.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd14.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd15.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd16.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd17.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd18.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd19.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd2.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd3.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd4.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd5.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd6.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd7.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd8.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitIoLdd9.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitLed_Azul.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitLed_Verde.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitOut_DIR_EN.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitOut_DIR_PWM.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\BitOut_DIR_SENT.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Btn_Emergencia.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Btn_SW1.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Btn_SW2.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\CPU_Config.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\CaptureLdd1.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\CaptureLdd2.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\CaptureLdd3.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\CaptureLdd4.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\CaptureLdd5.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\CaptureLdd6.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Cpu.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\CtrlPID_DD.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\CtrlPID_DDconfig.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\CtrlPID_DI.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\CtrlPID_DIconfig.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\CtrlPID_TD.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\CtrlPID_TDconfig.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\CtrlPID_TI.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\CtrlPID_TIconfig.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Encoder_DD.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Encoder_DI.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Encoder_TD.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Encoder_TI.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\ExtIntLdd1.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\ExtIntLdd2.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\ExtIntLdd3.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\IO_Map.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Init_Config.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Input_Encoder_DD.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Input_Encoder_DI.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Input_Encoder_TD.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Input_Encoder_TI.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\IntDireccion.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\IntTiempo.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\MCUC1.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\MCUC1config.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Out_PWM_DD.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Out_PWM_DI.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Out_PWM_TD.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Out_PWM_TI.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Out_Reversa.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\PE_Const.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\PE_Error.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\PE_LDD.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\PE_Types.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\PwmLdd1.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\PwmLdd2.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\PwmLdd3.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\PwmLdd4.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\ReceptorDireccion.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\ReceptorVelocidad.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Status_LED.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\TEXT.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\TPWM.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\TPulsos.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\TReceptor.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\TTemp.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\TimerIntLdd1.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\TimerIntLdd2.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\UART_MODBUS.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\Vectors_Config.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Generated_Code\WAIT1.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Sources\Defines2.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Sources\Events.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Sources\Funciones.h</PathName>
+      <PathName>C:\Mis Cosas\CW_Proyectos\Pre1Motor1.0\Sources\Struct2.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\iofiles\MK64F12.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\ADC_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\CAN_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\CMP_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\CMT_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\CRC_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\DAC_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\DMAMUX_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\DMA_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\ENET_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\EWM_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\FMC_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\FTFE_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\FTM_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\GPIO_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\I2C_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\LLWU_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\LPTMR_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\MCM_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\PDB_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\PDD_Types.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\PIT_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\PMC_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\PORT_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\RCM_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\RNGA_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\RTC_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\SAI_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\SCB_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\SDHC_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\SIM_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\SMC_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\SPI_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\SysTick_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\UART_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\USBDCD_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\USB_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\VREF_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd\inc\WDOG_PDD.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd2\MK64FN1M0LL12\system\CPU_Init.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd2\MK64FN1M0LL12\system\PDD_Includes.h</PathName>
+      <PathName>C:\Freescale\CW MCU v10.6\MCU\ProcessorExpert\lib\Kinetis\pdd2\MK64FN1M0LL12\system\Peripherals_Init.h</PathName>
+    </GeneratedHs>
+  </FILES>
+  <OPTIONS>
+  </OPTIONS>
+</export>
